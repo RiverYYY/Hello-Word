@@ -1,4 +1,4 @@
-'''html
+``` html
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,7 +9,7 @@
     <img src="images/firefox-icon.png" alt="My test image">
   </body>
 </html>
-'''
+```
 这里我们有：
 
 <!DOCTYPE html> — 文档类型说明（doctypes）。在 HTML 刚刚出现的时期里（大约是1991/2 年），文档类型说明是用为链接通过自动拼写检查和其他有用的操作来让 HTML 页面遵守特定规则来表现为好的 HTML。然而，如今没有人真正关注它们，而且它们现在只是作为一种历史上的人工制品来让开发进行顺利。
