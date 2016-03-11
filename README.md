@@ -29,16 +29,35 @@
 ```
 ####完成task0001.html
 
-2.1 任务描述
+####2.1 任务描述
 
 面向零基础同学
 ```css
-学习以下CSS是怎么运作的，然后创建一个task0001.css的文件，并在task0001.html中引入它，然后我们对task0001.html做一些让他变得花哨一点的事情：
+学习以下CSS是怎么运作的，然后创建一个task0001.css的文件，
+并在task0001.html中引入它，然后我们对task0001.html做一些让他变得花哨一点的事情：
 
 让一级标题的文字颜色变成蓝色
+h1{
+color: #00539F;
+}
+
 二级标题的文字大小变成14px
+h2{
+font-size: 14px;
+}
+
 段落的文字大小变成12px，文字颜色是黄色，带一个黑色的背景色
+P{
+font-size: 12px;
+color: #00539F;
+background-color: black;
+}
+
 图片有一个红色的，2px粗的边框
+img{
+border: 2px solid red;
+}
+
 ```
 
 任务二：JavaScript基础
