@@ -59,7 +59,21 @@ border: 2px solid red;
 }
 
 ```
+####在你的task0001.html中，快速实践以下文本相关的所有属性内容：
 
+text-indent
+text-transform
+text-decoration
+text-align
+word-spacing
+white-space
+color
+line-height
+font
+font-family
+font-size
+font-weight
+font-face
 任务二：JavaScript基础
 
 初级班：13天左右
