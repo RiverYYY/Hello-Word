@@ -61,19 +61,46 @@ border: 2px solid red;
 ```
 ####在你的task0001.html中，快速实践以下文本相关的所有属性内容：
 ```
-text-indent
-text-transform
-text-decoration
-text-align
-word-spacing
-white-space
-color
-line-height
-font
-font-family
-font-size
-font-weight
-font-face
+text-indent       文本缩进
+text-transform    控制文本大小写
+text-decoration   文本指定其他风格
+text-align        文本水平对齐方式（排列）
+word-spacing      字间距拉近拉远
+white-space       如何处理元素内的空白
+color             颜色
+line-height       行间距 行高
+font              字体属性
+font-family       指定字体
+font-size         字体大小
+font-weight       字体粗细
+font-face         引入新字体（电脑里没有的）自定义字体
+
+####掌握文本、文字、链接相关的样式属性
+a:link - 普通的、未被访问的链接
+a:visited - 用户已访问的链接
+a:hover - 鼠标指针位于链接的上方
+a:active - 链接被点击的时刻
+:focus   伪类 /* 获得焦点时 */
+####掌握背景属性 
+color（英文色：可能有的浏览器不支持；红绿蓝16进制色；RGB色）；background-color（元素背景色）；background（背景图，默认重复）
+####掌握列表相关的样式属性
+
+CSS ul有三种标记样式：
+disc    实心圆点
+circle  空心圆点
+square  实心方块
+在有序列表中，每个列表项都被标记了不同的序号。
+
+用list-style 属性指定标记样式：
+
+decimal     数字1.2.3……
+lower-roman 小写罗马
+upper-roman 大写罗马
+lower-latin a.b.c……
+upper-latin A.B.C……
+
+####深入了解行高属性（行高 半行距）
+默认line-height状态1.0-1.2 ；想自定义又灵活继承（纯数字1.5）不会忽略font-size
 ```
 任务二：JavaScript基础
 
