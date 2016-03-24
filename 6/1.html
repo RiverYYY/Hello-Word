@@ -8,14 +8,20 @@
     <meta name="description" content="用两种方法来实现一个背景色为红色、宽度为960px的<DIV>在浏览器中居中" />
     <!--CSS-->
     <style type="text/css">
-      #main{
+      *{margin: 0; padding: 0; }  /*为什么？页面的默认边距清除*/
+      #first{
         margin:      0 auto;
         background-color:  red;
-        max-width:     960px;/*很好的处理小窗口的情况*/
+        max-width:     960px;  /*很好的处理小窗口的情况*/
+      }
+      #second{
+        
       }
     </style>
   </head>
   <body>
-    <div id="main">DIV</div>
+    <div id="first">DIV-A</div>
+    <hr />
+    <div id="second">DIV-B</div>
   </body>
 </html>
