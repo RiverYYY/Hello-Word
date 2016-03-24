@@ -8,8 +8,14 @@
     <meta name="description" content="用两种方法来实现一个背景色为红色、宽度为960px的<DIV>在浏览器中居中" />
     <!--CSS-->
     <style type="text/css">
+      #main{
+        margin:      0 auto;
+        background-color:  red;
+        max-width:     960px;/*很好的处理小窗口的情况*/
+      }
+    </style>
   </head>
   <body>
-
+    <div id="main">DIV</div>
   </body>
 </html>
